@@ -1,0 +1,14 @@
+
+/run/initialize
+
+/gun/position 0 .6 4.15 m
+
+/process/had/particle_hp/use_photo_evaporation true
+/process/had/particle_hp/do_not_adjust_final_state true
+
+/analysis/setFileName coldbox_side_test.root
+
+/run/verbose 0
+/run/printProgress 10000
+
+/run/beamOn 10000
